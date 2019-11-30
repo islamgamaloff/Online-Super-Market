@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1077582258966",
+    "firebase_url": "https://fruitsandvegetables-74602.firebaseio.com",
+    "project_id": "fruitsandvegetables-74602",
+    "storage_bucket": "fruitsandvegetables-74602.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077582258966:android:dc7cf95fb7ae76c6",
+        "android_client_info": {
+          "package_name": "com.example.islamgsayed.onlinesupermarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077582258966-rdfirc8uidsfjo2725kroavnjfsi1jq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwJyH54irJnpnbqbpaqA_4cZYRtsCQ8Mg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

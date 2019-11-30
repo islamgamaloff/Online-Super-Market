@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backk"
+    tools:context="com.example.islamgsayed.onlinesupermarket.LoginActivity">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="8dp">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/Email_Login_ET"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Mobile Number"
+            android:textColorHint="#fff"
+            app:met_baseColor="#fff"
+            app:met_primaryColor="#fff"
+            app:met_singleLineEllipsis="true"
+            app:met_floatingLabel="highlight"
+            android:inputType="textEmailAddress"
+            android:textSize="34sp"
+            >
+
+
+
+        </com.rengwuxian.materialedittext.MaterialEditText>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/Password_Login_ET"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Password"
+            android:textColorHint="#fff"
+            app:met_baseColor="#fff"
+            app:met_primaryColor="#fff"
+            app:met_singleLineEllipsis="true"
+            app:met_floatingLabel="highlight"
+            android:inputType="textPassword"
+            android:textSize="34sp"
+            >
+        </com.rengwuxian.materialedittext.MaterialEditText>
+
+    </LinearLayout>
+    <info.hoang8f.widget.FButton
+
+android:layout_alignParentBottom="true"
+        android:id="@+id/login_Button"
+        android:background="#99000000"
+        android:textColor="#fff"
+        android:shadowColor="#000"
+        app:cornerRadius="4dp"
+        app:shadowHeight="5dp"
+        app:shadowEnabled="true"
+
+        android:textSize="30sp"
+        app:buttonColor="#550b09"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:layout_margin="8dp"
+        />
+
+
+
+</RelativeLayout>
